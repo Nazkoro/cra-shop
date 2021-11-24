@@ -1,0 +1,40 @@
+body{
+	width: 96%;
+	background-color: rgb(90, 231, 156);
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+.main{
+	width: 600px;
+	height: 600px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main__count{
+	border: 3px solid black;
+	display: flex;
+	width: 600px;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+}
+.main__p{
+	border: 3px solid black;
+	display: flex;
+	height: 140px;
+	width: 600px;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.main__btn{
+	height: 40px;
+	width: 80px;
+	border-radius:10px;
+	margin-left: 50px;
+	
+}
